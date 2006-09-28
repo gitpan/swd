@@ -1,6 +1,11 @@
-pod2text cwd.pm > README
+pod2text swd.pm > README
 
-If this is still here it means the programmer was too lazy to create the readme file.
+# If this is still here it means the programmer was too lazy to create the readme file.
+# d author: really ? :)
+
+This is the former cwd pragma. 
+Renamed because of "strange" name collisions under some OSs' filesystems (guess which ones).
+
 
 You can create it now by using the command shown above from this directory.
 

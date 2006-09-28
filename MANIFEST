@@ -4,5 +4,5 @@ LICENSE
 Todo
 Changes
 Makefile.PL
-lib/cwd.pm
+lib/swd.pm
 t/001_load.t

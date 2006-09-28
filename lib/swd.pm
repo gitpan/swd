@@ -1,4 +1,4 @@
-package cwd;
+package swd;
 
 
 our $VERSION = '0.01';
@@ -23,21 +23,21 @@ __END__
 
 =head1 NAME
 
-cwd - Perl pragma to change the current working directory 
+swd - Perl pragma to change the current working directory 
 
 
 =head1 SYNOPSIS
 
- use cwd;
+ use swd;
 
 
 =head1 DESCRIPTION
 
-The C<cwd> pragma changes the current working directory($ENV{PWD}) to the directory
+The C<swd> pragma changes the current working directory($ENV{PWD}) to the directory
 from which the called program is invoked; after callee returning the previous
 state of $ENV{PWD} is restored.
 
- use cwd;              # in the callee
+ use swd;              # in the callee
 
  print "callee: $ENV{PWD}\n";
  print $_,$/ for glob'*';

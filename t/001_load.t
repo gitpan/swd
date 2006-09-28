@@ -4,6 +4,6 @@
 
 use Test::More tests => 1;
 
-INIT{ use_ok( 'cwd' ); }
+INIT{ use_ok( 'swd' ); }
 
 
